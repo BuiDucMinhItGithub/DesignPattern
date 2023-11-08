@@ -1,4 +1,4 @@
-package com.designpattern.designpattern.bridge;
+package com.designpattern.designpattern.bridge.v1;
 
 public abstract class Bank {
   public final Account account;
@@ -7,6 +7,6 @@ public abstract class Bank {
     this.account = account;
   }
 
-  public abstract void openAccount();
+  public abstract void checkAccount();
   public abstract void saveAccount();
 }
