@@ -1,4 +1,4 @@
-package com.designpattern.designpattern.behavior.nullObject;
+package com.designpattern.designpattern.nullObject;
 
 public interface Tax {
   String getCountry();

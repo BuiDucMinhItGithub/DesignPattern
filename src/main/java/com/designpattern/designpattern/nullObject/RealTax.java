@@ -1,4 +1,4 @@
-package com.designpattern.designpattern.behavior.nullObject;
+package com.designpattern.designpattern.nullObject;
 
 public class RealTax implements Tax {
   private String country;
