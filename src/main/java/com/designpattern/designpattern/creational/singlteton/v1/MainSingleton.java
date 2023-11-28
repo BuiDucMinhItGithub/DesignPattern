@@ -1,4 +1,4 @@
-package com.designpattern.designpattern.creational.singlteton;
+package com.designpattern.designpattern.creational.singlteton.v1;
 
 public class MainSingleton {
 

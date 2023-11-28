@@ -1,7 +1,7 @@
-package com.designpattern.designpattern.creational.abstractFactory;
+package com.designpattern.designpattern.creational.abstractFactory.v1;
 
-import com.designpattern.designpattern.creational.abstractFactory.android.AndroidFactory;
-import com.designpattern.designpattern.creational.abstractFactory.macos.MacOsFactory;
+import com.designpattern.designpattern.creational.abstractFactory.v1.android.AndroidFactory;
+import com.designpattern.designpattern.creational.abstractFactory.v1.macos.MacOsFactory;
 
 public class FactoryManager {
 
