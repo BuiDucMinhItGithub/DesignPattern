@@ -1,4 +1,4 @@
-package com.designpattern.designpattern.creational.prototype;
+package com.designpattern.designpattern.creational.prototype.v1;
 
 import java.util.Objects;
 
