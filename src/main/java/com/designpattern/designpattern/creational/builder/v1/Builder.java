@@ -1,4 +1,4 @@
-package com.designpattern.designpattern.creational.builder;
+package com.designpattern.designpattern.creational.builder.v1;
 
 public interface Builder {
     public Builder getName(String name);
