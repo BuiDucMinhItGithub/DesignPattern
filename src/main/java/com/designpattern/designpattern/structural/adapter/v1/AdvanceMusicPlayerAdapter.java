@@ -1,4 +1,4 @@
-package com.designpattern.designpattern.structural.adapter;
+package com.designpattern.designpattern.structural.adapter.v1;
 
 public class AdvanceMusicPlayerAdapter implements MusicPlayer{
     private final AdvanceMusicPlayer advanceMusicPlayer;
