@@ -1,19 +1,14 @@
-package com.designpattern.designpattern.structural.composite;
+package com.designpattern.designpattern.structural.composite.v1;
 
-public class Developer implements Employee{
+public class Manger implements Employee{
+
   private String name;
   private long empId;
   private String position;
 
-  public Developer(String name, long empId, String position) {
-    this.name = name;
-    this.empId = empId;
-    this.position = position;
-  }
-
   @Override
   public void showEmployeeName() {
-    System.out.println("Developer"+ name);
+    System.out.println("Manager"+ name);
   }
 
   public String getName() {
@@ -37,6 +32,12 @@ public class Developer implements Employee{
   }
 
   public void setPosition(String position) {
+    this.position = position;
+  }
+
+  public Manger(String name, long empId, String position) {
+    this.name = name;
+    this.empId = empId;
     this.position = position;
   }
 }
