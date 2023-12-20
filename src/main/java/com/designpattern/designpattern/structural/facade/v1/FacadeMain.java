@@ -1,4 +1,4 @@
-package com.designpattern.designpattern.structural.facade;
+package com.designpattern.designpattern.structural.facade.v1;
 
 public class FacadeMain {
 

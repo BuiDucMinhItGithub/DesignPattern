@@ -1,4 +1,4 @@
-package com.designpattern.designpattern.structural.facade;
+package com.designpattern.designpattern.structural.facade.v1;
 
 public class ShopFacade {
 
@@ -8,7 +8,7 @@ public class ShopFacade {
 
 
   public ShopFacade(AccountService accountService, ShippingService shippingService,
-      PaymentService paymentService) {
+                    PaymentService paymentService) {
     this.accountService = accountService;
     this.shippingService = shippingService;
     this.paymentService = paymentService;
